@@ -1,5 +1,5 @@
 body {
-    background: #4400FF;
+    background: #FFFFFF;
     font-family: "Bauhaus 93", "Arial Rounded M...", Arial, Helvetica, sans-serif;
     font-size: 14px, 12px; 
     color: #000000;
@@ -46,7 +46,25 @@ li {
     clear: both;
     padding: 5px;
 }
-
+.img-1 {
+    display: inline-block;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-left: 100px;
+    margin-top: 26px;
+    background: #fff;
+    border-radius: 4px;
+}
+.img-1-left {
+    margin-right: 25px;
+    margin-bottom: 15px;
+    float: left;
+}
+.conten {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+}
 p {
     font-family: "Arial Rounded M...", Arial, Helvetica, sans-serif;
 }
