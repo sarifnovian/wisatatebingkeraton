@@ -1,0 +1,52 @@
+body {
+    background: #4400FF;
+    font-family: "Bauhaus 93", "Arial Rounded M...", Arial, Helvetica, sans-serif;
+    font-size: 14px, 12px; 
+    color: #000000;
+    margin: 0;
+    padding-bottom: 70px;
+}
+.header {
+    background-image: url(img/imgHeader1.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 600px;
+}
+.overlay {
+    background: rgba(7, 93, 223, 0.5);
+    overflow: hidden;
+    height: 600px;
+}
+.logo {
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 18px;
+}
+a:hover {
+    color: red;
+}
+ul {
+    float: right;
+    padding: 60px 40px;
+}
+li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+.intro {
+    text-align: center;
+    color: #ffffff;
+    clear: both;
+    padding: 5px;
+}
+
+p {
+    font-family: "Arial Rounded M...", Arial, Helvetica, sans-serif;
+}
